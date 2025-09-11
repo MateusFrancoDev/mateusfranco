@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class", // importante para toggle manual
+  darkMode: "class",
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
-    "./pages/**/*.{ts,tsx}", // se tiver páginas antigas
+    "./pages/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -23,8 +23,21 @@ module.exports = {
           950: "#021836",
         },
       },
+      keyframes: {
+        slideIn: {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        slideIn: "slideIn 1s ease forwards",
+        marquee: "marquee 10s linear infinite",
+      },
     },
   },
-
   plugins: [],
 };

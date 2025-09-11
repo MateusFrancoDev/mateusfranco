@@ -40,7 +40,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div>
           <h1 className="text-black dark:text-white">
-            &lt;MATEUS.<span className="text-blue-500">DEV</span> /&gt;
+            &lt;MATEUS.<span className="text-[#043C86]">DEV</span> /&gt;
           </h1>
         </div>
 
