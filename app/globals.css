@@ -32,7 +32,7 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: #030213;
   --primary-foreground: oklch(1 0 0);
-  --secondary: #004aad;
+  --secondary: #043c86;
   --secondary-foreground: #030213;
   --muted: #ececf0;
   --muted-foreground: #676464;
@@ -208,4 +208,28 @@
 
 html {
   font-size: var(--font-size);
+}
+
+@media (width >= 48rem) {
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .container {
+    max-width: 64rem;
+  }
+}
+
+@media (width >= 80rem) {
+  .container {
+    max-width: 80rem;
+  }
+}
+
+@media (width >= 96rem) {
+  .container {
+    max-width: 96rem;
+  }
 }
