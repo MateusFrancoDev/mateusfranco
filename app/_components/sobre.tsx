@@ -8,7 +8,7 @@ export function AboutSection() {
     {
       icon: Code,
       title: "Código Limpo",
-      description: "Escrevo código mentível e bem documentado",
+      description: "Escrevo código mantível e bem documentado",
     },
     {
       icon: Globe,
@@ -32,7 +32,7 @@ export function AboutSection() {
       id="about"
       className="py-20 mt-24 md:mt-17 bg-muted/50pt-40 md:pt-50  bg-muted/50"
     >
-      <div className="container mt-0 py-0 px-4 mt-0">
+      <div className="container mt-0 py-0 px-4 ">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-6">
             <h2 className="mb-4 text-3xl">Sobre Mim</h2>
