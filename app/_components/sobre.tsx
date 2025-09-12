@@ -66,14 +66,23 @@ export function AboutSection() {
               </div>
 
               <div className="flex flex-wrap gap-2 dark:text-amber-800">
-                <Badge variant="secondary" className="text-[#ffffff]">
+                <Badge
+                  variant="secondary"
+                  className="bg-[#043C86] text-[#ffff]"
+                >
                   1+ de experiência
                 </Badge>
-                <Badge variant="secondary" className="text-[#ffffff]">
+                <Badge
+                  variant="secondary"
+                  className="bg-[#043C86] text-[#ffff]"
+                >
                   5+ projetos concluídos
                 </Badge>
-                <Badge variant="secondary" className="text-[#ffffff]">
-                  Aprendendo inglês
+                <Badge
+                  variant="secondary"
+                  className="bg-[#043C86] text-[#ffff]"
+                >
+                  Formação Superior
                 </Badge>
               </div>
             </div>
@@ -86,7 +95,7 @@ export function AboutSection() {
                   className="text-center p-4 hover:shadow-lg transition-shadow duration-300"
                 >
                   <CardContent className="space-y-3">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto">
+                    <div className="w-12 h-12 bg-[#043C86] rounded-lg flex items-center justify-center mx-auto">
                       <highlight.icon className="w-6 h-6 text-primary" />
                     </div>
                     <h4 className="text-lg font-semibold ">
