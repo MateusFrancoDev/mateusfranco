@@ -1,5 +1,6 @@
 import { Header } from "./_components/header";
 import { HeroSection } from "./_components/principal";
+import { ProjectsSection } from "./_components/projetos";
 import { SkillsSection } from "./_components/skills";
 import { AboutSection } from "./_components/sobre";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <ProjectsSection />
       </main>
     </>
   );

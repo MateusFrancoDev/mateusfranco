@@ -57,7 +57,7 @@ export function SkillsSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="mb-4">Habilidades & Tecnologias</h2>
+            <h2 className="mb-4 text-3xl">Habilidades & Tecnologias</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Tecnologias e ferramentas que domino para criar soluções completas
               e eficientes.
@@ -95,7 +95,7 @@ export function SkillsSection() {
 
           {/* Technology Tags */}
           <div className="text-center">
-            <h3 className="mb-8">Tecnologias que Utilizo</h3>
+            <h3 className="mb-8 text-2xl">Tecnologias</h3>
             <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
               {technologies.map((tech, index) => (
                 <Badge
