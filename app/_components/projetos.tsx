@@ -230,10 +230,10 @@ export function ProjectsSection() {
 
               {/* NAVEGAÇÃO */}
               <div className="flex justify-center gap-2 mt-8">
-                <CarouselPrevious className="relative translate-y-0 left-0 top-0">
-                  <ChevronLeft className="w-4 h-4" />
+                <CarouselPrevious className="relative translate-y-0 left-0 top-0 cursor-pointer">
+                  <ChevronLeft className="w-4 h-4 " />
                 </CarouselPrevious>
-                <CarouselNext className="relative translate-y-0 right-0 top-0">
+                <CarouselNext className="relative translate-y-0 right-0 top-0 cursor-pointer ">
                   <ChevronRight className="w-4 h-4" />
                 </CarouselNext>
               </div>

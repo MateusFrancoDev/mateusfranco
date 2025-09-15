@@ -1,3 +1,4 @@
+import { ContactSection } from "./_components/contato";
 import { Header } from "./_components/header";
 import { HeroSection } from "./_components/principal";
 import { ProjectsSection } from "./_components/projetos";
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
     </>
   );
