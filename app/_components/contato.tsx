@@ -66,13 +66,13 @@ export function ContactSection() {
       icon: Phone,
       title: "Telefone",
       details: "+55 (11) 94634-0190",
-      action: "tel:+5511999999999",
+      action: "https://wa.me/5511946340190",
     },
     {
       icon: MapPin,
       title: "Localização",
       details: "Osasco, SP - Brasil",
-      action: "#",
+      action: "https://www.google.com/maps?q=Osasco,SP",
     },
   ];
 
@@ -106,7 +106,9 @@ export function ContactSection() {
                         <div>
                           <h4>{info.title}</h4>
                           <a
+                            target="_blank"
                             href={info.action}
+                            rel="noopener noreferrer"
                             className="text-muted-foreground hover:text-primary transition-colors  "
                           >
                             {info.details}
