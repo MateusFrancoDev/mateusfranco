@@ -54,7 +54,7 @@ export function HeroSection() {
         <div className="flex gap-4 justify-center lg:justify-start mt-4">
           <Button variant="secondary" size="icon" asChild>
             <a
-              href="https://github.com"
+              href="https://github.com/MateusFrancoDev"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -64,7 +64,7 @@ export function HeroSection() {
           </Button>
           <Button variant="secondary" size="icon" asChild>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mateus-franco-dev/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
