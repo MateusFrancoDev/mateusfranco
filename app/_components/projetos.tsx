@@ -14,6 +14,17 @@ import Image from "next/image";
 export function ProjectsSection() {
   const projects = [
     {
+      title: "CASTECH",
+      description:
+        "Castech, empresa especializada em assistência técnica, manutenção e venda de peças para embaladoras industriais. O site foi pensado para transmitir profissionalismo, confiança e deixar claro o serviço completo que eles oferecem.",
+      image: "/castch.png",
+      technologies: ["Next.js", "Shadcn-ui", "Tailwind CSS"],
+      liveUrl: "https://www.castechmanutencao.com.br/",
+      githubUrl: "#",
+      showLink: true,
+      category: "Frontend",
+    },
+    {
       title: "Cães",
       description:
         "Meu primeiro projeto em React foi uma rede social de cães, onde utilizei React para construir a interface do usuário e explorei uma API poderosa para gerenciar os dados de forma eficiente.",
