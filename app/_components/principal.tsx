@@ -74,7 +74,7 @@ export function HeroSection() {
           </Button>
           <Button variant="secondary" size="icon" asChild>
             <a
-              href="/mateusfranco.pdf"
+              href="/mateusfranco26.pdf"
               download
               aria-label="Baixar CV"
               target="_blank" // opcional: abre em nova aba
